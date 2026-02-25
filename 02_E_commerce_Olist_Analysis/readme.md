@@ -42,4 +42,4 @@ Robust SQL pipeline ensuring high data quality:
 ## 📊 Data Source
 Brazilian E-Commerce Public Dataset by Olist  
 🔗 [Kaggle – Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
-Last updated: **14 February 2026**
+Last updated: **25 February 2026**
