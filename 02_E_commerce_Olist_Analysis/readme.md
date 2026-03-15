@@ -1,45 +1,39 @@
-# E-commerce Logistics & Data Quality Analysis (Olist Dataset)
-## 🚧 Project Status: Advanced Analysis & Validation
-Advanced Data Integrity Audit: Successfully resolved complex ID-mapping issues to reveal true customer retention patterns and operational bottlenecks.
+E-commerce Data Engineering & Behavioral Analytics (Olist Dataset)
+✅ Project Status: Completed
+Advanced Data Integrity Audit & Strategic Segmentation
+The primary focus of this project was to master and apply advanced SQL techniques to solve real-world data engineering and analytical challenges. By transforming raw, "noisy" e-commerce data into high-performance analytical tables, I was able to reveal true customer retention patterns and quantify supply chain efficiency.
+🎯 Learning Objectives & SQL Mastery
+This project served as a comprehensive exercise to transition from basic querying to advanced data manipulation. Key SQL skills practiced include:
+•	Complex Data Transformations: Using CTEs (Common Table Expressions) to create readable, modular, and maintainable code for multi-stage cleaning.
+•	Analytical Functions: Implementing Window Functions like ROW_NUMBER() to solve complex deduplication issues and maintain data integrity.
+•	Relational Logic: Navigating intricate schema joins to resolve the "ID Mapping Paradox" and ensuring data granularity remains consistent across tables.
+•	Performance Engineering: Creating optimized Data Marts (aggregated tables) to shift the computational heavy-lifting from the reporting layer directly to the database engine.
+📌 Project Overview
+The main analytical challenge was auditing logistics through a "Promise vs. Reality" lens and identifying the "Real" Loyalty of the customer base. By resolving a critical ID-mapping issue, I transformed a dataset that appeared to have zero retention into a valuable source of behavioral insights.
+🛠️ Data Engineering & Cleaning Highlights
+A robust SQL pipeline was developed to ensure 100% data reliability:
+•	Unified Customer View: Successfully mapped transactional IDs to customer_unique_id, enabling accurate Lifetime Value (LTV) tracking.
+•	Neutralizing Row Inflation: Implemented DISTINCT logic across joins to eliminate data duplication caused by installment payment records.
+•	Schema Safety: Adjusted data types (e.g., VARCHAR for postal codes) to preserve leading zeros and optimized storage efficiency.
+•	Human-Readable Views: Created a "Gold" layer of SQL Views to sanitize category names and format currencies for business reporting.
+💡 Key Analytical Deliveries
+1. Behavioral RFM Segmentation
+I implemented a custom Recency, Frequency, Monetary model to categorize customers into actionable segments:
+•	Recent Champions: Identified an elite group of 225 customers with a 10% retention rate—significantly higher than the platform average.
+•	At-Risk High-Value: Detected 473 premium customers (lifetime spend > 1,000 units) who show early signs of churn, representing a critical win-back opportunity.
+2. High-Performance Data Marts
+I engineered two specialized analytical tables (Data Marts) to provide a structured overview of the business:
+•	sales_trends: Tracks monthly revenue and order growth, identifying seasonal peaks like the November 2017 spike.
+•	logistic_performance: A geographical breakdown of shipping efficiency, tracking delay_days and pct_late across all Brazilian states.
+📈 Final Business Insights
+•	The "Leaky Bucket" Discovery: While 97% of users are one-time buyers, I successfully uncovered a hidden core of ~2,400 repeat customers.
+•	Logistics Efficiency: Most packages arrive 8 to 21 days before the estimate, though specific regions face late-delivery rates exceeding 20%.
+•	Operational Benchmark: São Paulo (SP) remains the logistical leader, handling over 42,000 orders with the highest stability in the country.
+📂 Project Structure
+•	1_Phase_Data_cleaning/: SQL scripts for schema optimization and audit.
+•	2_Phase_RFM/: Logic for behavioral segmentation and retention analysis.
+•	3_Phase_Data_marts/: Final aggregated tables for sales and logistics.
+📊 Data Source
+Brazilian E-Commerce Public Dataset by Olist 🔗 Kaggle Dataset
+Last updated: 15 March 2026
 
-**Current Stage:**  
-- [x] Database Ingest & Schema Setup  
-- [x] Data Cleaning (Handling NULLs & Duplicates)  
-- [x] Advanced RFM Segmentation (Unified Customer Logic)  
-- [x] Logistic & Sales Data Modeling (Data Marts)  
-- [ ] Business KPI Dashboard – *Planned*
-
-## 📌 Project Overview
-This project analyzes the Brazilian e-commerce market using the Olist dataset.  
-The main analytical challenge was solving the **ID Mapping Paradox** to build a reliable RFM model and auditing supply chain efficiency through a **"Promise vs. Reality"** lens.
-
-## 💡 Key Analytical Discoveries
-
-### 1. Identifying "Real" Loyalty
-**The Trap:** Initial analysis showed ~0% retention because `customer_id` changes with every order.  
-
-**The Solution:** Performed a JOIN on `customer_unique_id` and used `COUNT(DISTINCT order_id)` to eliminate row inflation caused by multiple installments and order items.
-
-**The Result:** Revealed **~2,400 repeat customers** (clients with 2+ unique orders), with one top performer placing **15 orders** – patterns completely hidden in naive per-order counting.
-
-### 2. The "Promise vs. Reality" Gap (Logistics)
-**The Discovery:** Created a `delay_days` metric to measure the real difference between estimated delivery date and actual delivery date.
-
-**Optimization:** Built lightweight aggregated Data Marts (`sales_trends` & `logistic_performance`) in SQL – pre-aggregated 100k+ rows for fast, responsive Excel/Power BI dashboards.
-
-## 🛠️ Data Engineering & Cleaning Highlights
-Robust SQL pipeline ensuring high data quality:
-
-- Transaction integrity: `DISTINCT` logic across joins to neutralize inflation from payment installments  
-- Unified customer view: All key metrics grouped by `customer_unique_id` → true Lifetime Value (LTV) tracking  
-- Advanced duplicate handling: Window functions (`ROW_NUMBER`) to keep the highest-quality review records
-
-## 📈 Key Business Insights
-- **Loyalty core:** ~2,400 repeat buyers identified (real retention much higher than initially visible)  
-- **At-risk high-value segment:** 468 premium customers (lifetime spend > 1 000 BRL) showing potential early churn signals  
-- **Operational bottlenecks:** Clear regional differences in delivery delays – state-level segmentation highlights critical underperforming areas
-
-## 📊 Data Source
-Brazilian E-Commerce Public Dataset by Olist  
-🔗 [Kaggle – Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
-Last updated: **25 February 2026**
