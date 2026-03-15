@@ -1,44 +1,43 @@
-# Aspiring Data Analyst | SQL, Excel & Business Intelligence Portfolio
+# Aspiring Data Analyst | SQL, Excel & Power BI in progress
 
-Welcome to my portfolio! I am an Aspiring Data Analyst focused on turning raw, complex data into strategic business stories. This repository documents my journey in mastering data cleaning, advanced querying, and reporting. 
-
-I believe that **"Data is only as valuable as the integrity of the cleaning process behind it."**
+Welcome to my portfolio! I am an aspiring Data Analyst focused on transforming raw data into clear business insights. I believe that data is only as valuable as the integrity of the cleaning process behind it, which is why I prioritize data quality in all my projects.
 
 ---
 
-## 🛠️ Technical Toolkit
+## 🛠️ Technical Toolkit & Skills
 
-* **SQL (PostgreSQL, MySQL):** Advanced querying, data cleaning, CTEs, Window Functions, and Schema Optimization.
-* **Excel & Power Query:** Certified and practiced in ETL processes, data transformation, and automated reporting.
-* **Power BI:** Currently expanding my skills in DAX and dynamic visualization to create interactive business dashboards (In Progress).
-* **Data Engineering:** Data Integrity Audits, NULL analysis, and creating optimized Data Marts.
+* **SQL (PostgreSQL, MySQL):** Querying, data cleaning, CTEs, Window Functions, and joining complex tables. (Certified in SQL for Data Analytics).
+* **Excel & Power Query:** Using Power Query for ETL processes and data automation. (Certified in Excel data transformation).
+* **Power BI:** Currently in the intensive learning phase – focusing on building clear visualizations and learning DAX basics.
+* **Data Analytics:** Data quality audits, identifying database errors, and creating aggregated tables for reporting.
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Key Projects
 
 ### 1. [E-commerce Data Engineering & RFM Analysis (Olist)](./02_E_commerce_Olist_Analysis)
-* **Focus:** Advanced SQL Data Cleaning & Behavioral Segmentation.
-* **The Challenge:** Resolved the "ID Mapping Paradox" where customer retention appeared to be zero due to session-based IDs.
-* **Key Tech:** SQL Window Functions (`ROW_NUMBER`), CTEs, and Data Mart creation.
-* **Outcome:** Identified a hidden core of ~2,400 repeat customers and built optimized tables for tracking logistics and sales trends.
+* **Goal:** Practicing advanced SQL data cleaning and analyzing customer behavior.
+* **Challenge:** Fixed a critical data error (ID Mapping) where customer retention appeared to be zero due to fragmented IDs.
+* **Tech:** SQL (CTEs, Window Functions), preparing data marts for logistics and sales analysis.
+* **Outcome:** Identified a hidden core of ~2,400 repeat customers and prepared clean datasets for business use.
 
-### 2. [Pet Store Sales Performance](./01_Pet_Store_Analysis)
-* **Focus:** Sales Analytics & Inventory Management.
-* **Key Tech:** SQL Aggregations, `GROUP BY` Logic, and Excel for final insights.
-* **Outcome:** Identified high-margin "Premium" segments and calculated inventory weight to help optimize cash-flow planning.
-
----
-
-## 📜 Certifications & Growth
-* **Excel & Power Query:** Certified Specialist (Practical application in ETL and data modeling).
-* **Continuous Learning:** Actively developing proficiency in **Power BI** for advanced visualization and **Python** for data automation.
+### 2. [Pet Store Sales Analysis](./01_Pet_Store_Analysis)
+* **Goal:** Analyzing sales performance and product categorization.
+* **Tech:** SQL Aggregations (`SUM`, `AVG`, `COUNT`), filtering, and grouping data.
+* **Outcome:** Identified the most profitable product segments and analyzed inventory value from a financial perspective.
 
 ---
 
-## 📫 Let's Connect!
+## 📜 Certifications & Learning Path
+* **SQL:** Certified in SQL for Data Analysis.
+* **Excel & Power Query:** Certified in data transformation and automation techniques.
+* **In Progress:** I am currently focusing on intensive **Power BI** training. My goal is to soon expand my portfolio by integrating SQL analysis with advanced interactive visualizations.
+
+---
+
+## 📫 Contact
 * **Email:** ola.zalecka@gmail.com
 * **LinkedIn:** www.linkedin.com/in/aleksandrazalecka
 
 ---
-*“Turning data into decisions, one query at a time.”*
+*“Data is only as valuable as the integrity of the cleaning process behind it.”*
