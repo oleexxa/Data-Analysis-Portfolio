@@ -10,9 +10,15 @@ This project served as a comprehensive exercise to transition from basic queryin
 * **Performance Engineering:** I built optimized **Data Marts** (aggregated tables). These pre-calculated tables allow for efficient analysis without the need to process thousands of raw records repeatedly.
 
 ## 📌 Project Focus
-I analyzed two critical areas of the Olist ecosystem:
-1. **Customer Behavior:** Identifying "Real" loyalty by looking past session-based IDs.
-2. **Logistics Performance:** Auditing the supply chain by calculating the difference between "promised" and "actual" delivery dates.
+Instead of jump into visualization, I focused on creating high-quality, pre-aggregated data models that provide immediate business value. I developed four core analytical views:
+
+RFM Segmentation: A strategic table categorizing customers into segments like Recent Champions, At Risk High-Value, and New/Active. This allows for targeted marketing actions based on customer lifetime value (CLV).
+
+Sales Trends Analysis: A time-series dataset (Year/Month) tracking total revenue, order volume, and customer growth trends, enabling the business to identify seasonal patterns.
+
+Geographic Logistics Audit: A comprehensive performance map by Brazilian states, calculating delay_day_avg and on_time_delivery_rate. This identifies which regions suffer from supply chain bottlenecks.
+
+Customer Base Master-Table: A clean, de-duplicated view of unique customers with aggregated metrics like total_spent and avg_order_value, solving the fragmented ID issue.
 
 ## 💡 Key Analytical Insights
 * **Hidden Loyalty:** While most users are one-time buyers, I identified a core group of over 2,400 repeat customers that were previously "invisible" due to data errors.
