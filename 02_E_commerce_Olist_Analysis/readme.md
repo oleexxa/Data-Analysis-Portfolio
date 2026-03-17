@@ -1,7 +1,12 @@
 # E-commerce Analysis (SQL Practice Project)
 
-## ✅ Status: Completed
-The primary goal of this project was to apply advanced **SQL techniques** to a real-world dataset. I focused on cleaning "noisy" data and transforming raw tables into structured business insights.
+🚀 Status: In Progress (Evolving Project)
+This project is a living documentation of my growth as a Data Analyst. While the core SQL architecture is functional, I am continuously expanding it with new analytical modules and deeper optimizations as I master new technologies.
+
+📈 Future Roadmap (Upcoming Updates)
+I am committed to continuous improvement. The next phases of this project will include:
+E-commerce KPI Expansion: I am currently developing additional SQL scripts to calculate key business metrics.
+Final Stage: Interactive Dashboarding: The ultimate goal is to connect these SQL Data Marts to Power BI to transform raw numbers into a visual story for stakeholders.
 
 ## 🎯 Learning Objectives (SQL Mastery)
 This project served as a comprehensive exercise to transition from basic querying to advanced data manipulation. I practiced:
