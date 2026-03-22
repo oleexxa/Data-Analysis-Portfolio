@@ -15,7 +15,7 @@ rfm_summary as
 	select 
 		do.customer_unique_id 
 		,sum(op.payment_value) 										as total_spent 
-		,count(distinct do.order_id) 								as number_of_orders -- Naprawione: dodano 'do.'
+		,count(distinct do.order_id) 								as number_of_orders
 		,datediff('2018-08-29', max(do.order_purchase_timestamp)) 	as recency
 	from delivered_orders do
 	inner join order_payments op on do.order_id = op.order_id
