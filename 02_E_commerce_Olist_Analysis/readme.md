@@ -77,4 +77,4 @@ Instead of jumping into visualization, I focused on creating high-quality, pre-a
 
 Brazilian E-Commerce Public Dataset by Olist (Kaggle) — 100,000+ orders from 2016–2018.
 
-*Project Last Updated: March 2026*
+*Project Last Updated: March 30, 2026*
