@@ -63,15 +63,12 @@ Instead of jumping into visualization, I focused on creating high-quality, pre-a
 ├── 2_Phase_RFM/
 │   └── 02_rfm_customer_segmentation.sql
 │
-├── 3_Phase_Data_Marts/
-│   ├── 03_sales_trends.sql
-│   ├── 04_logistic_performance.sql
-│   ├── 05_sales_by_category.sql
-│   ├── 06_sales_by_state.sql
-│   └── 03_Data_Marts_Summary.pdf
-│
-└── 4_Phase_Power_BI/ (in progress)
-    └── Dashboard_Sales_Revenue.pbix
+└── 3_Phase_Data_Marts/
+    ├── 03_sales_trends.sql
+    ├── 04_logistic_performance.sql
+    ├── 05_sales_by_category.sql
+    ├── 06_sales_by_state.sql
+    └── 03_Data_Marts_Summary.pdf
 ```
 
 ---
