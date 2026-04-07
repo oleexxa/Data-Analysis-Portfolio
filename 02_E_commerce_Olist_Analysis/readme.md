@@ -18,6 +18,35 @@ This project is a living documentation of my growth as a Data Analyst. The core 
 
 ---
 
+## 📊 Power BI Dashboard
+
+### Dashboard 1: Sales & Revenue
+Built on top of SQL Data Marts — connecting pre-aggregated data to interactive visualizations.
+
+**Visuals:**
+- KPI Cards: Total Revenue, Total Orders, Avg Order Value — with Year-over-Year comparison (DAX)
+- Monthly Revenue Trend — line chart across 2016–2018
+- Top 10 Categories by Revenue — bar chart
+- Revenue by State — Brazil bubble map with tooltips
+
+**DAX Measures:**
+- LY comparisons (Total Revenue LY, Total Orders LY, Avg Order Value LY)
+- YoY % growth calculations
+- Conditional color formatting on main KPI values (green/red)
+
+**What I learned:**
+Power BI course completed — but applying theory to real data is a different story. Building this dashboard showed me exactly what still needs improvement:
+- Tables are not connected via relationships — filters don't work globally yet
+- MoM Growth calculated in SQL (LAG function) — still searching for the best way to visualize it
+- Brazil map doesn't respond to date filters — requires Data Mart architecture rebuild
+
+**Status:** Dashboard 1 built — architecture improvements planned  
+**Tools:** Power BI Desktop, DAX
+
+![Dashboard Sales Revenue](dashboard_sales_revenue.png)
+
+---
+
 ## 🎯 Learning Objectives (SQL Mastery)
 
 This project served as a comprehensive exercise to transition from basic querying to advanced data manipulation. I practiced:
@@ -36,45 +65,4 @@ Instead of jumping into visualization, I focused on creating high-quality, pre-a
 
 - **Data Cleaning & Staging:** Validated schema, removed duplicates, standardized city names, resolved row inflation from installment payments.
 - **RFM Segmentation:** Strategic table categorizing customers into segments like *Recent Champions*, *At Risk High-Value*, and *New/Active* — enabling targeted marketing based on customer lifetime value.
-- **Sales Trends Mart:** Monthly revenue, order volume, unique customers, AOV and Month-over-Month growth % using LAG window function.
-- **Category Performance Mart:** Revenue and order volume per product category with data quality handling for missing category names.
-- **State Performance Mart:** Revenue and order volume per Brazilian state — prepared for geographic visualization in Power BI.
-- **Logistics Performance Mart:** Delivery health by state — calculates `delay_day_avg` and `on_time_delivery_rate` to identify regional bottlenecks.
-
----
-
-## 💡 Key Analytical Insights
-
-- **Hidden Loyalty:** While most users are one-time buyers, I identified a core group of 2,400+ repeat customers previously "invisible" due to data structure errors.
-- **Seasonal Peak:** November 2017 was the platform's peak period — over 1.15M BRL in revenue, likely driven by Black Friday.
-- **Category Concentration:** Top 3 categories (bed_bath_table, health_beauty, computers_accessories) generate a disproportionate share of total revenue — indicating concentration risk.
-- **Regional Dependency:** São Paulo (SP) accounts for ~37% of total revenue — the platform is heavily dependent on one region.
-- **Logistics Gaps:** Most packages arrive 8–21 days before the estimated date. However, states like Alagoas (AL) exceed 20% late delivery rate — pointing to local supply chain challenges.
-
----
-
-## 🛠️ Project Structure
-```
-02_E_commerce_Olist_Analysis/
-│
-├── 1_Phase_Data_cleaning/
-│   └── 01_data_cleaning.sql
-│
-├── 2_Phase_RFM/
-│   └── 02_rfm_customer_segmentation.sql
-│
-└── 3_Phase_Data_Marts/
-    ├── 03_sales_trends.sql
-    ├── 04_logistic_performance.sql
-    ├── 05_sales_by_category.sql
-    ├── 06_sales_by_state.sql
-    └── 03_Data_Marts_Summary.pdf
-```
-
----
-
-## 📊 Data Source
-
-Brazilian E-Commerce Public Dataset by Olist (Kaggle) — 100,000+ orders from 2016–2018.
-
-*Project Last Updated: March 30, 2026*
+- **Sales Trends Mart:** Monthly revenue, order volume, u
