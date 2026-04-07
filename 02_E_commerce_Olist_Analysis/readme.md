@@ -43,7 +43,7 @@ Power BI course completed — but applying theory to real data is a different st
 **Status:** Dashboard 1 built — architecture improvements planned  
 **Tools:** Power BI Desktop, DAX
 
-![Dashboard Sales Revenue](4_Phase_Power_BI/dashboard_sales_revenue.png)
+![Dashboard Sales Revenue](3_Phase_Data_Marts/dashboard_sales_revenue.png)
 
 ---
 
