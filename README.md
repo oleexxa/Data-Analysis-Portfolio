@@ -44,7 +44,7 @@ End-to-end analytical project covering the full pipeline from raw data cleaning 
 ## 📫 Contact
 
 - **Email:** ola.zalecka@gmail.com
-- **LinkedIn:** www.linkedin.com/in/aleksandrazalecka
+- **LinkedIn:** [linkedin.com/in/aleksandrazalecka](https://www.linkedin.com/in/aleksandrazalecka)
 
 ---
 
