@@ -45,10 +45,11 @@ Built on top of SQL Data Marts — connecting pre-aggregated data to interactive
 Built on the RFM segmentation table — visualizing customer behavior and retention risk.
 
 **Visuals:**
-- 5 KPI Cards: Total Customers (93K), Repeat Customers (3K), At Risk High-Value (473), Repeat Rate % (3%), Revenue At Risk (760K R$) — At Risk cards highlighted in red
-- Revenue by Customer Segment — bar chart
-- Customer Base by Segment — donut chart
-- Segment breakdown table with Revenue per Customer column — At Risk row highlighted in red via conditional formatting
+- 5 KPI Cards: Total Customers (93K), Repeat Customers (3K), Repeat Rate % (3%), At Risk High-Value (473), Revenue At Risk (760K R$) — At Risk cards highlighted in red
+- Customer Base by Segment — horizontal bar chart
+- Revenue by Customer Segment — horizontal bar chart
+- Revenue per Customer by Segment — bar chart (Champions 1,711 R$, At Risk 1,607 R$ — 10x higher than remaining segments)
+- Segment breakdown table — At Risk row highlighted in red via conditional formatting
 
 ---
 
