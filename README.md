@@ -1,4 +1,4 @@
-# Aspiring Data Analyst | SQL, Power BI, Python & Excel
+# Aspiring Data Analyst | Python, SQL, Power BI & Excel
 
 Welcome to my portfolio! I am an aspiring Data Analyst focused on transforming raw data into clear business insights. I believe that real learning happens not in courses, but when you sit down with a real dataset and start solving actual problems.
 
