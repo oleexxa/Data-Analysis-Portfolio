@@ -1,5 +1,7 @@
 # Pet Store Sales Analysis – SQL Project
 
+> **Note:** This is my first SQL project, built to practice foundational concepts before moving to larger datasets.
+
 ✅ Status: Completed
 
 Retail data analysis of a pet store with strong focus on the **premium/luxury segment**.
