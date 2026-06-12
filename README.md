@@ -31,6 +31,13 @@ End-to-end analytical project covering the full pipeline from raw data cleaning 
 - **Tech:** SQL aggregations (SUM, AVG, COUNT), filtering and grouping
 - **Outcome:** Identified the most profitable product segments and analyzed inventory value from a financial perspective
 
+### 3. [AI Mentor Agent](./03_Agent_AI_Mentor)
+Personalized AI learning agent built in n8n to consolidate knowledge across 66 topics in Python, SQL and Power BI.
+- **Goal:** Build a practical AI tool that tracks learning progress and adapts teaching style based on performance
+- **Key challenge:** Microsoft API integration failed after 1 hour of debugging ("ObjectHandle is Invalid"). Switched to Google Sheets — worked in 2 minutes. Sometimes the simpler solution is just better.
+- **Tech:** n8n (workflow automation), Claude API (Anthropic), Google Sheets, Google Docs
+- **Outcome:** Fully functional AI mentor that reads progress, identifies weakest topics, uses Socratic questioning, saves results after every session and generates session notes in Google Docs — zero lines of code
+
 ---
 
 ## 📜 Certifications & Learning Path
