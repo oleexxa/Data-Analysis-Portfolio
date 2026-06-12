@@ -1,6 +1,6 @@
 # 🤖 AI Mentor Agent
 
-**Personalny agent AI do nauki data analytics — zbudowany w n8n bez jednej linijki kodu.**
+**Personalized AI learning agent for data analytics — built in n8n with zero lines of code.**
 
 ---
 
