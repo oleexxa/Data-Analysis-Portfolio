@@ -80,7 +80,7 @@ Switched to Google Sheets — worked in 2 minutes.
 
 ## 🔗 Links
 
-- 💼 [LinkedIn post about this project](https://pl.linkedin.com/in/aleksandrazalecka)
+- 💼 [LinkedIn post about this project](https://www.linkedin.com/feed/update/urn:li:activity:7466566589660758016/)
 - 📁 [Main Portfolio Repository](https://github.com/oleexxa/Data-Analysis-Portfolio)
 
 ---
