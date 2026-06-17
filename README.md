@@ -16,7 +16,14 @@ Welcome to my portfolio! I am an aspiring Data Analyst focused on transforming r
 
 ## 🚀 Key Projects
 
-### 1. [E-commerce Analysis — Olist Brazilian Marketplace](./02_E_commerce_Olist_Analysis)
+### 1. [AI Mentor Agent](./03_Agent_AI_Mentor)
+Personalized AI learning agent built in n8n to consolidate knowledge across 66 topics in Python, SQL and Power BI.
+- **Goal:** Build a practical AI tool that tracks learning progress and adapts teaching style based on performance
+- **Key challenge:** Microsoft API integration failed after 1 hour of debugging ("ObjectHandle is Invalid"). Switched to Google Sheets — worked in 2 minutes. Sometimes the simpler solution is just better.
+- **Tech:** n8n (workflow automation), Claude API (Anthropic), Google Sheets, Google Docs
+- **Outcome:** Fully functional AI mentor that reads progress, identifies weakest topics, uses Socratic questioning, saves results after every session and generates session notes in Google Docs — zero lines of code
+
+### 2. [E-commerce Analysis — Olist Brazilian Marketplace](./02_E_commerce_Olist_Analysis)
 
 End-to-end analytical project covering the full pipeline from raw data cleaning to interactive Power BI dashboards and Python analysis. Olist is a Brazilian marketplace platform — similar to Allegro in Poland.
 
@@ -25,18 +32,11 @@ End-to-end analytical project covering the full pipeline from raw data cleaning 
 - **Tech:** SQL (CTEs, Window Functions, nested subqueries, data marts), Python (Pandas, Matplotlib), Power BI, DAX
 - **Outcome:** Jupyter Notebook with full Python analysis + 3 interactive Power BI dashboards covering Sales & Revenue, Customer Segments and Logistics — with actionable business insights and strategic recommendations for the platform
 
-### 2. [Pet Store Sales Analysis](./01_Pet_Store_Analysis)
+### 3. [Pet Store Sales Analysis](./01_Pet_Store_Analysis)
 
 - **Goal:** Analyzing sales performance and product categorization
 - **Tech:** SQL aggregations (SUM, AVG, COUNT), filtering and grouping
 - **Outcome:** Identified the most profitable product segments and analyzed inventory value from a financial perspective
-
-### 3. [AI Mentor Agent](./03_Agent_AI_Mentor)
-Personalized AI learning agent built in n8n to consolidate knowledge across 66 topics in Python, SQL and Power BI.
-- **Goal:** Build a practical AI tool that tracks learning progress and adapts teaching style based on performance
-- **Key challenge:** Microsoft API integration failed after 1 hour of debugging ("ObjectHandle is Invalid"). Switched to Google Sheets — worked in 2 minutes. Sometimes the simpler solution is just better.
-- **Tech:** n8n (workflow automation), Claude API (Anthropic), Google Sheets, Google Docs
-- **Outcome:** Fully functional AI mentor that reads progress, identifies weakest topics, uses Socratic questioning, saves results after every session and generates session notes in Google Docs — zero lines of code
 
 ---
 
